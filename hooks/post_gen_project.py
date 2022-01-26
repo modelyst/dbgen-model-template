@@ -14,3 +14,6 @@ for path in REMOVE_PATHS:
             shutil.rmtree(path)
         else:
             os.unlink(path)
+
+# change name of env 
+shutil.move('temp.env','.env')
