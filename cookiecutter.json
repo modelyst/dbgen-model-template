@@ -1,0 +1,8 @@
+{
+    "repo_name": "dbgen-model",
+    "model_name": "model",
+    "full_name": "Johnny Northforest",
+    "email": "johnny@lyngby.de",
+    "version": "0.1.0",
+    "clean": ["false","true"]
+}
