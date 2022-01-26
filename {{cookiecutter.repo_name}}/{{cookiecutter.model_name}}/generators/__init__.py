@@ -1,7 +1,10 @@
+from dbgen import Model
 {% if cookiecutter.clean=="false" %}# Add generators here
-from .io import io_gens
+from .io import add_io_gens
 
-generators_to_add = [*io_gens]
-{% else %}# Add generators here
-generators_to_add = []
+def add_generators(model: Model):
+    add_io_gens(model)
+{% else %}def add_generators(model: Model):
+    # Add generators here
+    pass
 {% endif %}
