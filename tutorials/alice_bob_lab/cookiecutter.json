@@ -1,0 +1,6 @@
+{
+  "repo_name": "alice-bob-model",
+  "model_name": "alice_bob_model",
+  "version": "0.1.0",
+  "database_dsn": "postgresql://postgres:@localhost:5432/dbgen"
+}
