@@ -24,6 +24,6 @@ def add_f_to_c(model: Model) -> None:
             ).results()
             temp_c = f_to_c(temp_f).results()
             TemperatureMeasurement.load(
-                temperature_measurement=temperature_measurement_id,
+                id=temperature_measurement_id,
                 temperature_C=temp_c,
             )
